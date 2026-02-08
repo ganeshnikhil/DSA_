@@ -1,0 +1,16 @@
+.DS_Store
+# ---- C++ build artifacts ----
+*.exe
+*.out
+*.o
+*.obj
+
+# ---- Mac junk ----
+.DS_Store
+
+# ---- Windows junk ----
+Thumbs.db
+
+# ---- Optional: build folders ----
+build/
+bin/
