@@ -1,5 +1,0 @@
-string = input("Enter the String: ")
-print("Length:",len(string))
-print("Original:",string)
-print("UpperCase:",string.upper())
-print("Lower:",string.lower())
