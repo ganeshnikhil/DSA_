@@ -1,16 +1,17 @@
-.DS_Store
-# ---- C++ build artifacts ----
-*.exe
+# ---- C++ build artifacts (Linux) ----
+a.out
 *.out
 *.o
-*.obj
 
-# ---- Mac junk ----
-.DS_Store
+# common binary names
+main
+app
+program
 
-# ---- Windows junk ----
-Thumbs.db
-
-# ---- Optional: build folders ----
+# ---- build directories ----
 build/
 bin/
+
+# ---- editor / OS junk ----
+.DS_Store
+Thumbs.db
