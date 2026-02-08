@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    int arr[100];
+    int n;
+    int largest = -1, secondLargest = -1;
+
+    printf("Enter number of elements in the array: ");
+    scanf("%d", &n);
+
+    printf("Enter %d elements:\n", n);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    for (int i = 0; i < n; i++) {
+        if (arr[i] > largest) {
+            secondLargest = largest;
+            largest = arr[i];
+        } else if (arr[i] > secondLargest && arr[i] < largest) {
+            secondLargest = arr[i];
+        }
+    }
+
+    if (secondLargest == -1) {
+        printf("-1\n");
+    } else {
+        printf("Second largest unique element is: %d\n", secondLargest);
+    }
+
+    return 0;
