@@ -1,17 +1,23 @@
-# ---- C++ build artifacts (Linux) ----
+# ---- C++ build artifacts (Mac/Linux) ----
 a.out
 *.out
 *.o
+*.dSYM/
 
-# common binary names
+# common compiled binary names
 main
 app
 program
+test
+run
 
-# ---- build directories ----
+# ignore files without extension that are executable
+# (this is important for mac/linux)
+*.bin
+
+# ---- build folders ----
 build/
 bin/
 
-# ---- editor / OS junk ----
+# ---- macOS junk ----
 .DS_Store
-Thumbs.db
