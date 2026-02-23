@@ -47,11 +47,14 @@ This introduces **set union operations** and **duplicate elimination techniques*
 **Input:**
 ```
 L1 = 9->6->4->2->3->8, L2 = 1->2->8->6->2
+9->4->6->2
 ```
+l1 = 6->9->4
 **Output:**
 ```
 1 -> 2 -> 3 -> 4 -> 6 -> 8 -> 9
 ```
+
 
 ---
 

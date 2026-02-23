@@ -10,11 +10,12 @@ This teaches **bidirectional pointer manipulation** and **doubly linked list ope
 **Your task:** Delete a node at a specific position in a doubly linked list while maintaining proper forward and backward connections.
 
 ### Examples
-
+nullptr<-1-><-2
 **Input:**
 ```
 LinkedList = 1 <--> 3 <--> 4, x = 3
 ```
+
 **Output:**
 ```
 1 <--> 3
@@ -24,6 +25,7 @@ LinkedList = 1 <--> 3 <--> 4, x = 3
 
 **Input:**
 ```
+1->2
 LinkedList = 1 <--> 5 <--> 2 <--> 9, x = 1
 ```
 **Output:**
